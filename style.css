@@ -29,7 +29,7 @@ padding: 15px;
     .jauhar{color: white;font-size: 55px;padding-top: 120px;padding-left: 25px;}
     .para{font-size: 30px;
     color: white;padding-left: 28px;width: 600px;}
-  .jr{height: 350px;width: 350px; opacity: 0.9;
+  .jr{height: 380px;width: 430px; opacity: 0.9;
 border: 2px solid rgb(255, 145, 0);
 border-radius: 35%;}
 
@@ -1151,6 +1151,297 @@ font-size: 20px; color: white;}
       
       .pan{width: 320px;
       font-size: 15px; color: white;}
+      
+      /*---Contact---*/
+      #contact{
+        width: 100%;
+        height: 180vh;
+        background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(devil-boy-in-mask-dark.jpg) ;
+      }
+      #main h1{text-align: center;color: white;font-family: serif;font-size: 45px;border-bottom: 2px solid red;}
+      .map{color: white;font-weight: normal;font-weight: 35px;}
+      
+      .phn{color: white;font-weight: normal;color: white;}
+      .phone{background-color: white;width: 60px;height: 60px;text-align: center;padding-top: 15px;border-radius: 50px;color: black;font-size: 18px;}
+      .email{color: white;font-size: 30px;}
+
+  }
+  @media (max-width:736px) and (min-width:414px){
+    #Homepage{width: 100%;
+      height: 160vh;
+      background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(girl_silhouette_balloon_161854_3840x2160.jpg);
+      background-size: cover;
+      }
+      
+      .head h1{color: rgb(252, 249, 245);font-size: 30px;border-bottom: 3px solid rgb(255, 145, 0);text-align: center;width: 180px;font-family: serif;font-weight: bold;padding-top: 10px;width: 150px;}
+    
+      .nav__links a{float: right;
+        padding-left: 30px;
+        
+      font-size:20px;
+      text-decoration: none;
+      border-radius: 5px;
+    
+      
+      
+      
+      
+      
+      }
+      
+      .nav__links{list-style: none;}
+      .nav__links li{
+          display: inline-block;
+         
+      }
+      .nav__links a{color: white;}
+      .nav__links a:hover{
+          background-color: rgb(29, 133, 236);color: white;}
+          .jauhar{color: white;font-size: 45px;padding-top: 120px;padding-left: 25px;}
+          .para{font-size: 16px;width: 380px;
+          color: white;padding-left: 28px}
+        .jr{height: 380px;opacity: 0.9;width: 360px;margin-left: 10px;
+      border: 2px solid rgb(255, 145, 0);
+      border-radius: 35%;}
+      
+      /*---aboutus---*/
+      
+      #Aboutus{
+        width: 100%;
+        height:180vh;
+        background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(detective-pikachu-movie-fanart-zw-1920x1080.jpg) ;
+      }
+ 
+         .about{color: white;border-bottom:3px solid rgb(255, 255, 7) ;font-family: serif;font-weight: bold;font-size: 45px;text-align: center;}
+         .sry img{height: 380px;width: 360px;opacity: 0.9;border-radius: 50px;margin-left: 20px;border: 2px solid rgb(221, 172, 13);}
+         .who h1{padding-left: 40px;color: white;font-size: 60px;font-family: fantasy;}
+         .who p{margin-left: 40px;color: white;font-size: 30px;}
+      
+         /*---Qualification---*/
+      
+         #qualification{
+           width: 100%;
+           height: 100vh;
+           background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(star-wars-episode-vii-the-force-awakens-3840x2160-star-wars-episode-vii-the-force-awakens-4K-Wallpaper-3840X2160.jpg) ;
+         }
+         #qua h1{color: rgb(255, 253, 253);font-size: 55px;text-align: center;font-family: serif; }
+      
+         /*---Service's---*/
+         #service{height: 260vh;
+        width: 100%;
+      background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(HD\ wallpaper_\ picture-in-picture\,\ anime\ boys\,\ Uchiha\ Itachi.jfif);}
+      .ser{text-align: center;font-size: 55px;font-family: serif;color: white;}
+      .box{position: relative;
+        height: 350;
+        width: 300px;
+        background:transparent;
+        border-radius: 5px;}
+      
+      .box svg{
+        position: absolute;
+        height: 200px;
+        width:180px;
+        left:52%;
+        top: 10px;
+        transform: translate(-50%,-50%);
+      }
+      
+      .box svg circle{
+        fill:transparent;
+        stroke: rgb(255, 0, 0);
+        stroke-width: 10;
+        stroke-dasharray: 500;
+        stroke-dashoffset: 200;
+        stroke-linecap:round;
+        animation: stroke 3.0s steps(500) forwards;
+      }
+      .box .counter{
+        position: absolute;
+        left: 0%;
+        transform: translate(-50,-50);
+        width: 230px;
+        height: 40px;
+        color: white;
+        overflow: hidden;
+        
+      }
+      
+      .box .counter span{
+        font-size: 25px;
+        line-height: 50px;
+        font-weight: bold;
+      }
+      .box .counter span:after{
+        content: "0%\A 1%\A 2%\A 3%\A 4%\A 5%\A 6%\A 7%\A 8%\A 9%\A 10%\A 11%\A 12%\A 13%\A 14%\A 15%\A 16%\A 17%\A 18%\A 19%\A 20%\A 21%\A 22%\A 23%\A 24%\A 25%\A 26%\A 27%\A 28%\A 29%\A 30%\A 31%\A 32%\A 33%\A 34%\A 35%\A 36%\A 37%\A 38%\A 39%\A 40%\A 41%\A 42%\A 43%\A 44%\A 45%\A 46%\A 47%\A 48%\A 49%\A 50%\A 51%\A 52%\A 53%\A 54%\A 55%\A 56%\A 57%\A 58%\A 59%\A 60%\A 61%\A 62%\A 63%\A 64%\A 65%\A 66%\A 67%\A 68%\A 69%\A 70%\A 71%\A 72%\A 73%\A 74%\A 75%\A 76%\A 77%\A 78%\A 79%\A 80%\A 81%\A 82%\A 83%\A 84%\A 85%\A 86%\A 87%\A 88%\A 89%\A 90%\A 91%\A 92%\A 93%\A 94%\A 95%\A 96%\A 97%\A 98\A 99\A 100%";
+        position: absolute;
+        white-space: pre;
+        left: 49%;
+        transform: translate(-50);
+        animation: animate 2.0s steps(100) forwards;
+      }
+      @keyframes animate{
+        0%{
+      top:  0%;
+       }
+       100%{
+          top: -5000px; }
+      }
+      
+      @keyframes stroke{
+        100%{
+          stroke-dashoffset: 0;
+        }
+        
+      }
+      .web {color: white;
+      padding-top: 100px;
+      font-size: 30px;
+      padding-left: 60px;
+      font-family: serif;
+       }
+       .pwe{color: white;font-size: 20px;
+      width: 300px;}
+      
+       .bx{position: relative;
+        height: 350;
+        width: 300px;
+        background:transparent;
+        border-radius: 5px;}
+      
+      .bx svg{
+        position: absolute;
+        height: 200px;
+        width:180px;
+        left:63%;
+        top: 10px;
+        transform: translate(-50%,-50%);
+      }
+      
+      .bx svg circle{
+        fill:transparent;
+        stroke: rgb(255, 0, 0);
+        stroke-width: 10;
+        stroke-dasharray: 500;
+        stroke-dashoffset: 200;
+        stroke-linecap:round;
+        animation: stroke 3.0s steps(500) forwards;
+      }
+      .bx .count{
+        position: absolute;
+        left: 10%;
+        transform: translate(-50,-50);
+        width: 230px;
+        height: 40px;
+        color: white;
+        overflow: hidden;
+        
+      }
+      
+      .bx .count span{
+        font-size: 25px;
+        line-height: 50px;
+        font-weight: bold;
+      }
+      .bx .count span:after{
+        content: "0%\A 1%\A 2%\A 3%\A 4%\A 5%\A 6%\A 7%\A 8%\A 9%\A 10%\A 11%\A 12%\A 13%\A 14%\A 15%\A 16%\A 17%\A 18%\A 19%\A 20%\A 21%\A 22%\A 23%\A 24%\A 25%\A 26%\A 27%\A 28%\A 29%\A 30%\A 31%\A 32%\A 33%\A 34%\A 35%\A 36%\A 37%\A 38%\A 39%\A 40%\A 41%\A 42%\A 43%\A 44%\A 45%\A 46%\A 47%\A 48%\A 49%\A 50%\A 51%\A 52%\A 53%\A 54%\A 55%\A 56%\A 57%\A 58%\A 59%\A 60%\A 61%\A 62%\A 63%\A 64%\A 65%\A 66%\A 67%\A 68%\A 69%\A 70%\A 71%\A 72%\A 73%\A 74%\A 75%\A 76%\A 77%\A 78%\A 79%\A 80%\A 81%\A 82%\A 83%\A 84%\A 85%\A 86%\A 87%\A 88%\A 89%\A 90%\A 91%\A 92%\A 93%\A 94%\A 95%\A 96%\A 97%\A 98\A 99\A 100%";
+        position: absolute;
+        white-space: pre;
+        left: 49%;
+        transform: translate(-50);
+        animation: animate 2.0s steps(100) forwards;
+      }
+      @keyframes animate{
+        0%{
+      top:  0%;
+       }
+       100%{
+          top: -5000px; }
+      }
+      
+      @keyframes stroke{
+        100%{
+          stroke-dashoffset: 0;
+        }
+        
+      }
+      .code {color: white;
+      padding-top: 100px;
+      font-size: 30px;
+      padding-left: 100px;
+      font-family: serif; }
+      .pcd{color: white;font-size: 18px;
+        width: 380px;}
+      
+      .bo{position: relative;
+        height: 350;
+        width: 300px;
+        background:transparent;
+        border-radius: 5px;}
+      
+      .bo svg{
+        position: absolute;
+        height: 200px;
+        width:180px;
+        left:73%;
+        top: 10px;
+        transform: translate(-50%,-50%);
+      }
+      
+      .bo svg circle{
+        fill:transparent;
+        stroke: rgb(255, 0, 0);
+        stroke-width: 10;
+        stroke-dasharray: 500;
+        stroke-dashoffset: 200;
+        stroke-linecap:round;
+        animation: stroke 3.0s steps(500) forwards;
+      }
+      .bo .ctr{
+        position: absolute;
+        left: 20%;
+        transform: translate(-50,-50);
+        width: 230px;
+        height: 40px;
+        color: white;
+        overflow: hidden;
+        
+      }
+      
+      .bo .ctr span{
+        font-size: 25px;
+        line-height: 50px;
+        font-weight: bold;
+      }
+      .bo .ctr span:after{
+        content: "0%\A 1%\A 2%\A 3%\A 4%\A 5%\A 6%\A 7%\A 8%\A 9%\A 10%\A 11%\A 12%\A 13%\A 14%\A 15%\A 16%\A 17%\A 18%\A 19%\A 20%\A 21%\A 22%\A 23%\A 24%\A 25%\A 26%\A 27%\A 28%\A 29%\A 30%\A 31%\A 32%\A 33%\A 34%\A 35%\A 36%\A 37%\A 38%\A 39%\A 40%\A 41%\A 42%\A 43%\A 44%\A 45%\A 46%\A 47%\A 48%\A 49%\A 50%\A 51%\A 52%\A 53%\A 54%\A 55%\A 56%\A 57%\A 58%\A 59%\A 60%\A 61%\A 62%\A 63%\A 64%\A 65%\A 66%\A 67%\A 68%\A 69%\A 70%\A 71%\A 72%\A 73%\A 74%\A 75%\A 76%\A 77%\A 78%\A 79%\A 80%\A 81%\A 82%\A 83%\A 84%\A 85%\A 86%\A 87%\A 88%\A 89%\A 90%\A 91%\A 92%\A 93%\A 94%\A 95%\A 96%\A 97%\A 98\A 99\A 100%";
+        position: absolute;
+        white-space: pre;
+        left: 49%;
+        transform: translate(-50);
+        animation: animate 2.0s steps(100) forwards;
+      }
+      @keyframes animate{
+        0%{
+      top:  0%;
+       }
+       100%{
+          top: -5000px; }
+      }
+      
+      @keyframes stroke{
+        100%{
+          stroke-dashoffset: 0;
+        }
+        
+      }
+      .Ana {color: white;
+      padding-top: 100px;
+      font-size: 30px;
+      padding-left: 90px;
+      font-family: serif; }
+      
+      .pan{width: 400px;padding-left: 30px;
+      font-size: 20px; color: white;}
       
       /*---Contact---*/
       #contact{
